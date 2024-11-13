@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .post {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+        .post-title {
+            font-size: 1.5em;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .post-title:hover {
+            text-decoration: underline;
+        }
+        .post-date {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .post-content {
+            font-size: 1em;
+            margin-top: 5px;
+        }
+        @media (max-width: 600px) {
+            .post-title {
+                font-size: 1.2em;
+            }
+            .post-content {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Family Blog</h1>
+    <p>Sharing love, laughter, and life lessons</p>
+</header>
+
+<div class="container">
+    <h2>Recent Posts</h2>
+    <div class="post">
+        <a href="#" class="post-title">Adventures in Parenting: A Day at the Zoo</a>
+        <p class="post-date">Published on October 10, 2023</p>
+        <p class="post-content">Join us as we explore the zoo with the kids and share some tips for a fun family day out.</p>
+    </div>
+    <div class="post">
+        <a href="#" class="post-title">Family Recipe: Grandma's Special Lasagna</a>
+        <p class="post-date">Published on October 5, 2023</p>
+        <p class="post-content">Nothing brings us together quite like family meals. Here's how to make Grandma's famous lasagna.</p>
+    </div>
+    <div class="post">
+        <a href="#" class="post-title">How We Celebrate Birthdays as a Family</a>
+        <p class="post-date">Published on October 1, 2023</p>
+        <p class="post-content">Discover our family's birthday traditions and how we make each celebration unique and special.</p>
+    </div>
+</div>
+
+</body>
+</html>
